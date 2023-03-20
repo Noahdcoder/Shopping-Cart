@@ -45,5 +45,5 @@ To use the application, follow these steps:
 2. You can increase or decrease the quantity of items in your cart using the "+" and "-" buttons, respectively.
 3. To remove an item from your cart, click on the "X" button next to the item.
 
-<h2License</h2>
+<h2>License</h2>
 This project is licensed under the MIT License.
