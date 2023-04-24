@@ -17,7 +17,11 @@ export default function Home() {
       <Nav />
       <main
         className="relative home-main"
-        style={{ marginTop: navHeight, height: `calc(100vh - ${navHeight}px)` }}
+        style={{
+          marginTop: navHeight,
+          minHeight: `calc(100vh - ${navHeight}px)`,
+          // other styles
+        }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-center p-8 mt-8">
