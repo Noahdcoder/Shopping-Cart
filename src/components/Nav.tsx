@@ -11,7 +11,7 @@ export default function Nav() {
   const router = useRouter();
 
   return (
-    <nav className="fixed top-0 w-full flex shadow-lg justify-between p-8 text-2xl bg-veryLightGray">
+    <nav className="fixed top-0 w-full flex shadow-lg justify-between p-8 text-2xl bg-veryLightGray z-10">
       <ul className="flex space-x-4">
         <li>
           <Link href="/" legacyBehavior>
