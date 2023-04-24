@@ -29,7 +29,7 @@ export default function About() {
             skills using TypeScript and Next.js/React. So feel free to browse
             around, but don&apos;t expect to find any real products. Instead,
             you might find some fun easter eggs hidden in the code. We hope you
-            enjoy our little playgrounds!
+            enjoy our little playground!
           </p>
           <div className="mt-10 flex justify-center">
             <Image
