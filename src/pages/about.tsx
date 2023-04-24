@@ -16,7 +16,10 @@ export default function About() {
       <Nav />
       <section
         className="bg-gray-100 py-20 px-4"
-        style={{ marginTop: navHeight, height: `calc(100vh - ${navHeight}px)` }}
+        style={{
+          marginTop: navHeight,
+          minHeight: `calc(100vh - ${navHeight}px)`,
+        }}
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-extrabold text-gray-900">About Us</h2>
@@ -26,7 +29,7 @@ export default function About() {
             skills using TypeScript and Next.js/React. So feel free to browse
             around, but don&apos;t expect to find any real products. Instead,
             you might find some fun easter eggs hidden in the code. We hope you
-            enjoy our little playground!
+            enjoy our little playgrounds!
           </p>
           <div className="mt-10 flex justify-center">
             <Image
